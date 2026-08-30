@@ -128,7 +128,7 @@ deregister.cmd
 
 ## Changelog
 
-### 1.0 — 2026-08-29
+### 1.1 — 2026-08-29
 - Open Watcom port: `Makefile.wat`, `mk.cmd`, `genbind.cmd`
 - Files reorganized into `idl/`, `h/`, `src/`, `doc/`, `release/`
 - Created `src/wpstutor_res.h` (resource constants for wrc)
