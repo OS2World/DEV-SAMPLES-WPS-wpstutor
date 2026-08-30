@@ -1,0 +1,20 @@
+# CRLF is crucial for OS/2 REXX files (also fine for Windows .cmd)
+*.cmd  eol=crlf
+
+# Source files use LF
+*.c    eol=lf
+*.h    eol=lf
+*.idl  eol=lf
+*.rc   eol=lf
+*.ipf  eol=lf
+*.md   eol=lf
+
+# Compiled outputs are binary
+*.dll  binary
+*.exe  binary
+*.obj  binary
+*.lib  binary
+*.res  binary
+*.hlp  binary
+*.ico  binary
+*.map  binary
